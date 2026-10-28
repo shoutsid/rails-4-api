@@ -1,18 +1,18 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.1.16'
+gem 'rails', '4.2.11.3'
 gem 'rails-api' #Rails on API mode
 
 gem 'sqlite3', group: [:development, :test]# Use sqlite3 as the database for Active Record
 gem 'warden', '1.2.3'
-gem "devise", "~> 3.0.0"
+gem "devise", "~> 3.2"
 gem "cancancan", "~> 1.9"
 gem 'active_model_serializers'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0.rc1'
+gem "sass-rails", "~> 4.0.5"
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -45,3 +45,4 @@ gem "execjs", "~> 1.4.0"
 gem "jquery-ui-rails", "~> 6.0"
 gem 'responders'
 
+gem "devise-token_authenticatable", "~> 0.4.0"
