@@ -43,3 +43,5 @@ gem "loofah", "~> 2.0.3"
 gem "mimemagic", "= 0.3.9"
 gem "execjs", "~> 1.4.0"
 gem "jquery-ui-rails", "~> 6.0"
+gem 'responders'
+
