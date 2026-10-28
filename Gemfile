@@ -1,16 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.13'
 gem 'rails-api' #Rails on API mode
 
 gem 'sqlite3', group: [:development, :test]# Use sqlite3 as the database for Active Record
 gem 'warden', '1.2.3'
-gem 'devise'
+gem "devise", "~> 3.0.0"
 gem 'cancan' #For authorization
 gem 'active_model_serializers'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-gem 'therubyracer', platforms: :ruby
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0.rc1'
