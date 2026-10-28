@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.13'
+gem 'rails', '4.1.16'
 gem 'rails-api' #Rails on API mode
 
 gem 'sqlite3', group: [:development, :test]# Use sqlite3 as the database for Active Record
 gem 'warden', '1.2.3'
 gem "devise", "~> 3.0.0"
-gem 'cancan' #For authorization
+gem "cancancan", "~> 1.9"
 gem 'active_model_serializers'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -32,8 +32,8 @@ gem 'unicorn'
 gem 'debugger', group: [:development, :test]
 
 #Testing
-gem "rspec-rails", :group => [:development, :test] #Unit test framework
-gem "database_cleaner", :group => :test #For cleaning database during unit tests
+gem "rspec-rails", "~> 2.14.0"
+gem "database_cleaner", "~> 1.0"
 gem "cucumber-rails", :group => :test, :require => false #Behaviour driven development
 gem "factory_girl_rails", :group => [:development, :test] #Factory for DB data
 gem "shoulda-matchers", :group => :test #Collection of Rails testing matchers
@@ -42,3 +42,4 @@ gem 'json_spec', group: :test # JSON matchers for tests
 gem "loofah", "~> 2.0.3"
 gem "mimemagic", "= 0.3.9"
 gem "execjs", "~> 1.4.0"
+gem "jquery-ui-rails", "~> 6.0"
