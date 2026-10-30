@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '5.0.7.2'
-gem 'rails-api' #Rails on API mode
 
 gem "sqlite3", "~> 1.3.6", group: [:development, :test]# Use sqlite3 as the database for Active Record
 gem 'warden', '1.2.3'
@@ -33,6 +32,7 @@ gem "byebug", "~> 10.0", group: [:development, :test]
 
 #Testing
 gem "rspec-rails", "~> 3.5.0"
+gem "capybara", "~> 2.18.0"
 gem "database_cleaner", "~> 1.0"
 gem "cucumber-rails", :group => :test, :require => false #Behaviour driven development
 gem "factory_girl_rails", :group => [:development, :test] #Factory for DB data
