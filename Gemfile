@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.11.3'
 gem 'rails-api' #Rails on API mode
 
-gem 'sqlite3', group: [:development, :test]# Use sqlite3 as the database for Active Record
+gem "sqlite3", "~> 1.4.0", group: [:development, :test]# Use sqlite3 as the database for Active Record
 gem 'warden', '1.2.3'
 gem "devise", "~> 3.2"
 gem "cancancan", "~> 1.9"
@@ -29,14 +29,14 @@ gem 'unicorn'
 # gem 'capistrano', group: :development
 
 # Use debugger
-gem 'debugger', group: [:development, :test]
+gem "byebug", "~> 10.0", group: [:development, :test]
 
 #Testing
 gem "rspec-rails", "~> 2.14.0"
 gem "database_cleaner", "~> 1.0"
 gem "cucumber-rails", :group => :test, :require => false #Behaviour driven development
 gem "factory_girl_rails", :group => [:development, :test] #Factory for DB data
-gem "shoulda-matchers", :group => :test #Collection of Rails testing matchers
+gem "shoulda-matchers", "~> 2.7", :group => :test #Collection of Rails testing matchers
 gem 'cucumber-api-steps', :require => false, :group => :test #Cucumber steps for API
 gem 'json_spec', group: :test # JSON matchers for tests
 gem "loofah", "~> 2.0.3"
@@ -46,3 +46,6 @@ gem "jquery-ui-rails", "~> 6.0"
 gem 'responders'
 
 gem "devise-token_authenticatable", "~> 0.4.0"
+gem "json", "~> 1.8.6"
+gem "raindrops", "~> 0.20.0"
+gem "kgio", "~> 2.11.0"
