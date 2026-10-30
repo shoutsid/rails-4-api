@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '7.2.4'
 
-gem "sqlite3", "~> 1.4.0"
+gem "sqlite3", "~> 2.1"
 gem 'warden', '1.2.3'
 gem "devise", "~> 4.0"
 gem "cancancan", "~> 1.9"
@@ -28,7 +28,7 @@ gem 'unicorn'
 # gem 'capistrano', group: :development
 
 # Use debugger
-gem "byebug", "~> 10.0", group: [:development, :test]
+gem "byebug", "~> 13.0", group: [:development, :test]
 
 #Testing
 gem "rspec-rails", "~> 6.1"
@@ -54,7 +54,7 @@ gem "bootsnap", "~> 1.26"
 
 gem "thor", "~> 1.2.0"
 gem "ffi", "~> 1.16.0"
-gem "bigdecimal", "~> 1.4.2"
+gem "bigdecimal", "~> 3.1"
 gem "sprockets-rails", "~> 3.4.0"
 gem "globalid", "~> 1.1.0"
 gem "sprockets", "~> 3.7"
