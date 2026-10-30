@@ -50,3 +50,5 @@ gem "json", "~> 1.8.6"
 gem "raindrops", "~> 0.20.0"
 gem "kgio", "~> 2.11.0"
 gem "minitest", "~> 5.14.4"
+gem 'bootsnap', "= 1.4.5"
+
