@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.1.7'
+gem 'rails', '5.2.8.1'
 
-gem "sqlite3", "~> 1.3.6", group: [:development, :test]# Use sqlite3 as the database for Active Record
+gem "sqlite3", "~> 1.4.0", group: [:development, :test]# Use sqlite3 as the database for Active Record
 gem 'warden', '1.2.3'
 gem "devise", "~> 4.0"
 gem "cancancan", "~> 1.9"
@@ -50,3 +50,6 @@ gem "json", "~> 1.8.6"
 gem "raindrops", "~> 0.20.0"
 gem "kgio", "~> 2.11.0"
 gem "minitest", "~> 5.14.4"
+gem 'bootsnap', "= 1.4.5"
+
+gem "thor", "~> 1.2.0"
