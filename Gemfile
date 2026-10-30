@@ -36,7 +36,7 @@ gem "capybara", "~> 2.18.0"
 gem "database_cleaner", "~> 1.0"
 gem "cucumber-rails", :group => :test, :require => false #Behaviour driven development
 gem "factory_girl_rails", :group => [:development, :test] #Factory for DB data
-gem "shoulda-matchers", "~> 2.7"
+gem "shoulda-matchers", "~> 4.1"
 gem 'cucumber-api-steps', :require => false, :group => :test #Cucumber steps for API
 gem "json_spec", "~> 1.1.2"
 gem "loofah", "~> 2.22"
@@ -50,7 +50,7 @@ gem "json", "~> 1.8.6"
 gem "raindrops", "~> 0.20.0"
 gem "kgio", "~> 2.11.0"
 gem "minitest", "~> 5.14.4"
-gem 'bootsnap', "= 1.4.5"
+gem "bootsnap", "~> 1.4.9"
 
 gem "thor", "~> 1.2.0"
 gem "ffi", "~> 1.16.0"
@@ -61,3 +61,4 @@ gem "sprockets", "~> 3.7"
 gem "zeitwerk", "~> 2.6.0"
 gem "nokogiri", "~> 1.12.0"
 gem "rake", ">= 12.2"
+gem "prism", "~> 1.0"
