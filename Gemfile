@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '7.0.10'
+gem 'rails', '7.1.6'
 
 gem "sqlite3", "~> 1.4.0"
 gem 'warden', '1.2.3'
@@ -31,9 +31,9 @@ gem 'unicorn'
 gem "byebug", "~> 10.0", group: [:development, :test]
 
 #Testing
-gem "rspec-rails", "~> 4.0.0"
+gem "rspec-rails", "~> 6.1"
 gem "capybara", "~> 2.18.0"
-gem "database_cleaner", "~> 1.0"
+gem "database_cleaner", "~> 2.1"
 gem "cucumber-rails", :group => :test, :require => false #Behaviour driven development
 gem "factory_girl_rails", :group => [:development, :test] #Factory for DB data
 gem "shoulda-matchers", "~> 4.1"
@@ -49,7 +49,7 @@ gem "devise-token_authenticatable", "~> 1.1"
 gem "json", "~> 1.8.6"
 gem "raindrops", "~> 0.20.0"
 gem "kgio", "~> 2.11.0"
-gem "minitest", "~> 5.14.4"
+gem "minitest", "~> 5.25.0"
 gem "bootsnap", "~> 1.4.9"
 
 gem "thor", "~> 1.2.0"
@@ -59,6 +59,8 @@ gem "sprockets-rails", "~> 3.4.0"
 gem "globalid", "~> 1.1.0"
 gem "sprockets", "~> 3.7"
 gem "zeitwerk", "~> 2.6.0"
-gem "nokogiri", "~> 1.12.0"
+gem "nokogiri", "~> 1.15.7"
 gem "rake", ">= 12.2"
 gem "prism", "~> 1.0"
+gem "connection_pool", "~> 2.5"
+gem "rdoc", "~> 6.3.0"
