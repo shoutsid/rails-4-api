@@ -53,3 +53,5 @@ gem "minitest", "~> 5.14.4"
 gem 'bootsnap', "= 1.4.5"
 
 gem "thor", "~> 1.2.0"
+gem "ffi", "~> 1.16.0"
+gem "bigdecimal", "~> 1.4.2"
