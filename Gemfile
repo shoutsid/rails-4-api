@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '8.0.5.1'
+gem 'rails', '8.1.0'
 
 gem "sqlite3", "~> 2.1"
 gem 'warden', '1.2.3'
@@ -28,7 +28,7 @@ gem 'unicorn'
 # gem 'capistrano', group: :development
 
 # Use debugger
-gem "byebug", "~> 13.0", group: [:development, :test]
+gem "byebug", "~> 13.0"
 
 #Testing
 gem "rspec-rails", "~> 6.1"
