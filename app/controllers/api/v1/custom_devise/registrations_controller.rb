@@ -2,7 +2,7 @@ module Api
   module V1
     module CustomDevise
       class RegistrationsController < Devise::RegistrationsController
-        prepend_before_filter :require_no_authentication, :only => [ :create ]
+        prepend_before_action :require_no_authentication, :only => [ :create ]
 
         respond_to :json
 
