@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '5.0.7.2'
 
-gem "sqlite3", "~> 1.4.0", group: [:development, :test]# Use sqlite3 as the database for Active Record
+gem "sqlite3", "~> 1.3.6", group: [:development, :test]# Use sqlite3 as the database for Active Record
 gem 'warden', '1.2.3'
 gem "devise", "~> 4.0"
 gem "cancancan", "~> 1.9"
