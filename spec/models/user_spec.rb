@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe User do
   describe "#admin?" do
-    let(:user) { FactoryGirl.create(:user, role: 'user')  }
+    let(:user) { FactoryBot.create(:user, role: 'user')  }
     context "when role is admin" do
       it "should return true" do
         user.role = 'admin'

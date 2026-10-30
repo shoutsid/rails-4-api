@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '7.1.6'
+gem 'rails', '7.2.4'
 
 gem "sqlite3", "~> 1.4.0"
 gem 'warden', '1.2.3'
@@ -35,7 +35,7 @@ gem "rspec-rails", "~> 6.1"
 gem "capybara", "~> 2.18.0"
 gem "database_cleaner", "~> 2.1"
 gem "cucumber-rails", :group => :test, :require => false #Behaviour driven development
-gem "factory_girl_rails", :group => [:development, :test] #Factory for DB data
+gem "factory_bot_rails", "~> 4.9"
 gem "shoulda-matchers", "~> 4.1"
 gem 'cucumber-api-steps', :require => false, :group => :test #Cucumber steps for API
 gem "json_spec", "~> 1.1.2"
@@ -65,3 +65,4 @@ gem "prism", "~> 1.0"
 gem "connection_pool", "~> 2.5"
 gem "rdoc", "~> 6.3.0"
 gem "sass", "~> 3.7"
+gem "database_cleaner-active_record", "~> 2.1"
