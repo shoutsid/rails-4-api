@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '6.0.6.1'
+gem 'rails', '6.1.7.10'
 
 gem "sqlite3", "~> 1.4.0"
 gem 'warden', '1.2.3'
@@ -60,3 +60,4 @@ gem "globalid", "~> 1.1.0"
 gem "sprockets", "~> 3.7"
 gem "zeitwerk", "~> 2.6.0"
 gem "nokogiri", "~> 1.12.0"
+gem "rake", ">= 12.2"
