@@ -6,13 +6,13 @@ describe User do
     context "when role is admin" do
       it "should return true" do
         user.role = 'admin'
-        user.admin?.should be_true
+        user.admin?.should be_truthy
       end
     end
     context "when role is user" do
       it "should return false" do
         user.role = 'user'
-        user.admin?.should be_false
+        user.admin?.should be_falsey
       end
     end
   end
