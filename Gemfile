@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.11.3'
 gem 'rails-api' #Rails on API mode
 
-gem "sqlite3", "~> 1.4.0", group: [:development, :test]# Use sqlite3 as the database for Active Record
+gem "sqlite3", "~> 1.3.6", group: [:development, :test]# Use sqlite3 as the database for Active Record
 gem 'warden', '1.2.3'
 gem "devise", "~> 3.2"
 gem "cancancan", "~> 1.9"
