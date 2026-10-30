@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.0.7.2'
+gem 'rails', '5.1.7'
 
 gem "sqlite3", "~> 1.3.6", group: [:development, :test]# Use sqlite3 as the database for Active Record
 gem 'warden', '1.2.3'
@@ -36,7 +36,7 @@ gem "capybara", "~> 2.18.0"
 gem "database_cleaner", "~> 1.0"
 gem "cucumber-rails", :group => :test, :require => false #Behaviour driven development
 gem "factory_girl_rails", :group => [:development, :test] #Factory for DB data
-gem "shoulda-matchers", "~> 2.7", :group => :test #Collection of Rails testing matchers
+gem "shoulda-matchers", "~> 2.7"
 gem 'cucumber-api-steps', :require => false, :group => :test #Cucumber steps for API
 gem "json_spec", "~> 1.1.2"
 gem "loofah", "~> 2.2.3"
