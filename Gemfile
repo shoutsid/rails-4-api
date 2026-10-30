@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '7.2.4'
+gem 'rails', '8.0.5.1'
 
 gem "sqlite3", "~> 2.1"
 gem 'warden', '1.2.3'
